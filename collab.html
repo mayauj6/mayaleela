@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>collab — maya leela</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&family=Codystar&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+
+    .collab-container {
+      max-width: 800px;
+      margin: 4rem auto;
+      text-align: center;
+      padding: 0 1.5rem;
+    }
+
+    .collab-blurb {
+      font-size: 1.2rem;
+      margin-bottom: 3rem;
+      font-weight: 300;
+      line-height: 1.6;
+    }
+
+    .hover-reveal {
+      position: relative;
+      display: inline-block;
+      margin-bottom: 3rem;
+    }
+
+    .hover-reveal-text {
+      visibility: hidden;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      font-size: 1rem;
+      max-width: 500px;
+      margin: 1rem auto 0;
+      line-height: 1.5;
+      font-weight: 300;
+    }
+
+    .hover-reveal:hover .hover-reveal-text {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    .email-icon {
+      font-size: 3rem;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+      color: #c7b6ff;
+    }
+
+    .email-icon:hover {
+      transform: scale(1.4);
+      color: #e0d2ff;
+    }
+
+    .footer {
+      margin-top: 4rem;
+      text-align: center;
+      font-size: 0.9rem;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+<body>
+  <header class="sticky-header">maya leela music</header>
+
+  <div class="collab-container">
+
+    <div class="hidden-message">
+      <p>idk what i’m doing...</p>
+      <p>but i know exactly what i’m doing...</p>
+      <p>and what i’m meant to be doing...</p>
+      <p class="hover-line">does this sound like u?</p>
+    </div>
+  
+    <div class="email-container">
+      <div class="email-icon" onclick="window.location.href='mailto:mayauj6music@gmail.com'">💌📧💌</div>
+    </div>
+  
+  </div>
+  
+
+    
+
+    <div class="hover-reveal">
+      <div class="email-icon" onclick="window.location.href='mailto:mayauj6music@gmail.com'">💌📧💌</div>
+      <div class="hover-reveal-text">
+        if you're aligned with yourself and your music, i would love to hear from you and possibly work together.  
+        <br><br>
+        i write, produce, sing, play keys, mix, and more. i’m open to collaboration but selective with my time — i work full-time and learn as i go, which means i move slow, but intentionally.  
+        <br><br>
+        pitch me your ideas, your vibes, your sound — i’d absolutely love to hear about what you’re working on :D 💌
+        artists of any kind, i'd love to hear from you and if my services can be of n
+      </div>
+    </div>
+
+    <p class="footer">mayauj6 music</p>
+  </section>
+</body>
+</html>
